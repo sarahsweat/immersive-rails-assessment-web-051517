@@ -1,0 +1,13 @@
+<h1>Edit user</h1>
+
+<%= form_for @user do |f| %>
+
+  <h4>Edit Username and Password</h4>
+  <h5>Username: </h5><%= f.text_field :username %><br>
+  <h5>Password: </h5> <%= f.password_field :password%><br>
+
+
+  <%= f.submit "Edit User" %><br>
+<% end %>
+
+<%= link_to "Back" , root_path %>

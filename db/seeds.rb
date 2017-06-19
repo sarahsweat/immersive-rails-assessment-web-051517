@@ -26,3 +26,5 @@ date = Date.parse('2015-09-08')
 end
 
 User.create(username: 'stephencolbert', password: 'bears')
+
+Appearance.create(guest_id: 1, episode_id: 1, rating: 1)

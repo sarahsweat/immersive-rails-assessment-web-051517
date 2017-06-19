@@ -1,0 +1,8 @@
+
+<%= form_for @appearance do |f| %>
+  <h5>Episode: </h5><%= f.text_field :episode_id %><br>
+  <h5>Guest: </h5><%= f.text_field :guest_id %><br>
+  <h5>Rating: </h5><%= f.text_field :rating %><br>
+
+  <%= f.submit "Create Appearance" %><br>
+<% end %>

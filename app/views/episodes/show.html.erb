@@ -1,0 +1,5 @@
+<h1>Episode <%= @episode.number %></h1>
+
+<% @episode.appearances.each do |app| %>
+  <h5><%= app.guest_id %></h5>
+<% end  %>

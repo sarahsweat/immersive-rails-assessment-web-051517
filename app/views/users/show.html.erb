@@ -1,0 +1,10 @@
+<h1>Hello, <%= @user.username %>!</h1>
+
+
+<%= link_to "Log Out" , logout_path(@user), {method: "delete"}%><br> <br>
+
+<%= link_to "Create New Appearance" , new_appearance_path%><br> <br>
+
+<%= link_to "View all episodes" , episodes_path%><br> <br>
+
+<%= link_to "View all guests" , guests_path%><br> <br>
